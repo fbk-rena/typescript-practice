@@ -25,3 +25,18 @@ const menu: [string, number][] = [
 menu.forEach(([product, price]) => {
   console.log(`Producto: ${product}, Precio: $${price}`);
 });
+
+//Object Types + Arrays
+/* Syntax 
+
+type TypeName = {
+  property1: Type;
+  property2: Type;
+};
+
+const array: TypeName[] = [...];
+
+If you miss a property or use the wrong type, you'll get a compile-time error.
+
+
+*/

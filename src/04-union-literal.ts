@@ -7,6 +7,6 @@ function move(dir: Direction) {
 
 move("up");
 
-function printId(id: number | string) {
+function displayId(id: number | string) {
   console.log("ID:", id);
 }

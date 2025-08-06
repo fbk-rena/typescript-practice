@@ -1,5 +1,5 @@
 // Type Aliases and Intersections
-type ID = number | string;
+type tag = number | string;
 
 interface Animal {
   name: string;
