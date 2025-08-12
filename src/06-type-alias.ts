@@ -1,15 +1,15 @@
 // Type Aliases and Intersections
 type tag = number | string;
 
-interface Animal {
+interface Animales {
   name: string;
 }
 
-interface Dog {
+interface Dogs {
   breed: string;
 }
 
-type Pet = Animal & Dog;
+type Pet = Animales & Dogs;
 
 const myDog: Pet = {
   name: "Max",

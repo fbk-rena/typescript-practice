@@ -32,7 +32,6 @@ function unsafeSum(a: any, b: any): any {
     return a + b;
   }
   
-  // Test
   console.log("unsafeSum('3', 4):", unsafeSum("3", 4));  // ➡️ "34" (string concatenation, not math)
   console.log("safeSum(3, 4):", safeSum(3, 4));          // ➡️ 7 (number addition)
 

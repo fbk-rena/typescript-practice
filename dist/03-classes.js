@@ -1,5 +1,5 @@
 "use strict";
-class Student {
+class Learner {
     constructor(firstName, middleInitial, lastName) {
         this.firstName = firstName;
         this.middleInitial = middleInitial;
@@ -10,5 +10,5 @@ class Student {
 function greeter(person) {
     return `Hello, ${person.firstName} ${person.lastName}`;
 }
-const student = new Student("Jane", "M.", "User");
+const student = new Learner("Jane", "M.", "User");
 console.log(greeter(student)); // ➝ "Hello, Jane User"

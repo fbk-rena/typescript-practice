@@ -3,7 +3,7 @@ interface Person {
   lastName: string;
 }
 
-class Student {
+class Learner {
   fullName: string;
 
   constructor(
@@ -19,6 +19,6 @@ function greeter(person: Person): string {
   return `Hello, ${person.firstName} ${person.lastName}`;
 }
 
-const student = new Student("Jane", "M.", "User");
+const student = new Learner("Jane", "M.", "User");
 
 console.log(greeter(student)); // ➝ "Hello, Jane User"
