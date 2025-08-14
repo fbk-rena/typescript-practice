@@ -19,6 +19,4 @@ function greeter(person: Person): string {
   return `Hello, ${person.firstName} ${person.lastName}`;
 }
 
-const student = new Learner("Jane", "M.", "User");
-
-console.log(greeter(student)); // ➝ "Hello, Jane User"
+const estudiante = new Learner("Jane", "M.", "User");
